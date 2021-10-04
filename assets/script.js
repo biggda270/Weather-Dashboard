@@ -24,7 +24,7 @@ function initPage() {
         })
         
         .then(function(data){         
-            const currentDate = new Date(response);
+            const currentDate = moment(data.dt*1000).format("MM/D/YYYY")
             const day = currentDate.getDate();
             const month = currentDate.getMonth() + 1;
             const year = currentDate.getFullYear();

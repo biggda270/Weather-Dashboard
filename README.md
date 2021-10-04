@@ -4,9 +4,9 @@
 
 
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+The html works
+
+I had a problem fetching and publishing to the elements. 
 
 
 Acceptance Criteria
